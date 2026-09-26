@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ToDo List</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>ToDo List</h1>
+
+        <section class="todo-form">
+
+            <h2>Add a ToDo</h2>
+
+            <input
+                id="todo-title"
+                type="text"
+                placeholder="ToDo title"
+            >
+
+            <textarea
+                id="todo-description"
+                placeholder="ToDo description"
+            ></textarea>
+
+            <button id="add-todo-button">
+                Add ToDo
+            </button>
+
+        </section>
+
+        <section>
+            <h2>My ToDos</h2>
+
+            <div id="todo-list"></div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
