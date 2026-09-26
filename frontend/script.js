@@ -109,7 +109,7 @@ function addTodo() {
             titleInput.value = "";
             descriptionInput.value = "";
 
-            displayTodo(createdTodo);
+            loadTodos();
 
         })
         .catch((error) => {
